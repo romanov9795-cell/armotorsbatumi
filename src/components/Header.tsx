@@ -27,6 +27,16 @@ export default function Header() {
         return () => window.removeEventListener("scroll", handleScroll);
     }, []);
 
+    // Lock body scroll when mobile menu is open
+    useEffect(() => {
+        if (menuOpen) {
+            document.body.style.overflow = "hidden";
+        } else {
+            document.body.style.overflow = "unset";
+        }
+        return () => { document.body.style.overflow = "unset"; };
+    }, [menuOpen]);
+
     const navLinks = [
         { label: t("nav.home"), href: "#hero" },
         { label: t("nav.services"), href: "#services" },

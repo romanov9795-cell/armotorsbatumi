@@ -33,7 +33,7 @@ export default function Hero() {
                 >
                     {/* Badge Removed as requested */}
 
-                    <h1 className="text-6xl md:text-8xl lg:text-9xl font-heading text-white mb-6 leading-[0.9]">
+                    <h1 className="text-5xl sm:text-6xl md:text-8xl lg:text-9xl font-heading text-white mb-6 leading-[0.9]">
                         BMW <br />
                         <span className="text-transparent bg-clip-text bg-gradient-to-r from-white to-gray-500">SERVICE</span>
                     </h1>

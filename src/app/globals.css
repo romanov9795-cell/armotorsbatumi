@@ -47,6 +47,7 @@
   body {
     @apply bg-black text-white scroll-smooth antialiased;
     font-feature-settings: "cv11", "ss01";
+    touch-action: manipulation;
   }
 
   h1,

@@ -40,7 +40,7 @@ export default function ModelsGallery() {
     ];
 
     return (
-        <section id="models" className="py-24 bg-[#0a0a0a] border-t border-white/5">
+        <section id="models" className="section-padding bg-[#0a0a0a] border-t border-white/5">
             <div className="container mx-auto px-6">
                 <div className="text-center mb-16">
                     <span className="text-[#E62E2D] text-xs font-bold tracking-[0.3em] uppercase block mb-4">
