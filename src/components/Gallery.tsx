@@ -11,12 +11,12 @@ export default function Gallery() {
     const [selectedId, setSelectedId] = useState<string | null>(null);
 
     const images = [
-        { id: "1", src: "/images/gallery-work.jpg", titleKey: "gallery.1.title", tagKey: "gallery.1.tag" }, // Hands/Tools
-        { id: "2", src: "/images/service-engine.jpg", titleKey: "gallery.2.title", tagKey: "gallery.2.tag" }, // Engine
-        { id: "3", src: "/images/gallery-diag.jpg", titleKey: "gallery.5.title", tagKey: "gallery.5.tag" }, // Computer/Diag (Laptop)
-        { id: "4", src: "/images/service-lift.jpg", titleKey: "gallery.4.title", tagKey: "gallery.4.tag" }, // Lift
-        { id: "5", src: "/images/service-interior.jpg", titleKey: "gallery.6.title", tagKey: "gallery.6.tag" }, // Interior
-        { id: "6", src: "/images/model-m.jpg", titleKey: "gallery.3.title", tagKey: "gallery.5.tag" }, // Tuning / Performance Black Car
+        { id: "1", src: "/images/gallery-work.jpg", titleKey: "gallery.1.title", tagKey: "gallery.1.tag" }, // M4 Progress
+        { id: "2", src: "/images/gallery-tuning-bmw.jpg", titleKey: "gallery.5.title", tagKey: "gallery.5.tag" }, // Stage 2 Tuning
+        { id: "3", src: "/images/gallery-brake-bmw.jpg", titleKey: "gallery.3.title", tagKey: "gallery.3.tag" }, // M Brake System
+        { id: "4", src: "/images/service-lift.jpg", titleKey: "gallery.4.title", tagKey: "gallery.4.tag" }, // Full Service
+        { id: "5", src: "/images/service-engine.jpg", titleKey: "gallery.2.title", tagKey: "gallery.2.tag" }, // Engine Diag
+        { id: "6", src: "/images/service-interior.jpg", titleKey: "gallery.6.title", tagKey: "gallery.6.tag" }, // Detailing
     ];
 
     return (
