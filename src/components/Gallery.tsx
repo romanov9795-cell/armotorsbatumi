@@ -12,10 +12,10 @@ export default function Gallery() {
 
     const images = [
         { id: "1", src: "/images/gallery-work.jpg", titleKey: "gallery.1.title", tagKey: "gallery.1.tag" }, // Hands/Tools
-        { id: "2", src: "/images/model-m.jpg", titleKey: "gallery.5.title", tagKey: "gallery.5.tag" }, // Stage 2 Tuning (Black M Car)
-        { id: "3", src: "/images/service-lift.jpg", titleKey: "gallery.3.title", tagKey: "gallery.3.tag" }, // M Brake System (Car on Lift)
+        { id: "2", src: "/images/hero.jpg", titleKey: "gallery.5.title", tagKey: "gallery.5.tag" }, // Stage 2 Tuning (Using Hero BMW to be safe)
+        { id: "3", src: "/images/service-lift.jpg", titleKey: "gallery.3.title", tagKey: "gallery.3.tag" }, // M Brake System (Lift view)
         { id: "4", src: "/images/service-engine.jpg", titleKey: "gallery.4.title", tagKey: "gallery.4.tag" }, // Full Service (Engine)
-        { id: "5", src: "/images/gallery-diag.jpg", titleKey: "gallery.2.title", tagKey: "gallery.2.tag" }, // Engine Diag (Laptop/Screen)
+        { id: "5", src: "/images/gallery-diag.jpg", titleKey: "gallery.2.title", tagKey: "gallery.2.tag" }, // Engine Diag
         { id: "6", src: "/images/service-interior.jpg", titleKey: "gallery.6.title", tagKey: "gallery.6.tag" }, // Detailing
     ];
 
