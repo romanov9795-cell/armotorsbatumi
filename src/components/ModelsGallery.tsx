@@ -25,7 +25,7 @@ export default function ModelsGallery() {
         },
         {
             id: "x5",
-            image: "/images/model-suv.jpg", // Generic SUV shot
+            image: "/images/model-x5-real.jpg", // Real BMW X5
             title: "X5 / X6",
             descKey: "models.x5.desc",
             cols: "md:col-span-1",
