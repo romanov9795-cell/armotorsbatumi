@@ -51,7 +51,7 @@ export default function Services() {
     ];
 
     return (
-        <section id="services" className="relative py-24 bg-black overflow-hidden">
+        <section id="services" className="relative section-padding bg-black overflow-hidden">
             {/* Decorative Grid */}
             <div className="absolute inset-0 bg-[url('/grid.svg')] bg-center [mask-image:linear-gradient(180deg,white,rgba(255,255,255,0))] opacity-10 pointer-events-none" />
 

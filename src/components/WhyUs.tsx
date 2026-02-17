@@ -35,7 +35,7 @@ export default function WhyUs() {
     ];
 
     return (
-        <section id="why-us" className="relative py-24 bg-[#050505] overflow-hidden">
+        <section id="why-us" className="relative section-padding bg-[#050505] overflow-hidden">
             <div className="absolute inset-0 bg-[url('/noise.png')] opacity-5 pointer-events-none mix-blend-overlay" />
 
             <div className="container mx-auto px-6 relative z-10">

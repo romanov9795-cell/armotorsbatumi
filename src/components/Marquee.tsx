@@ -18,7 +18,7 @@ export default function Marquee() {
             <div className="absolute left-0 top-0 bottom-0 w-32 bg-gradient-to-r from-black to-transparent z-10" />
             <div className="absolute right-0 top-0 bottom-0 w-32 bg-gradient-to-l from-black to-transparent z-10" />
 
-            <div className="flex animate-marquee whitespace-nowrap items-center">
+            <div className="flex animate-marquee whitespace-nowrap items-center will-change-transform">
                 {[...items, ...items, ...items].map((item, i) => (
                     <div key={i} className="flex items-center mx-8 group">
                         <span className="text-sm md:text-base font-heading tracking-[0.3em] uppercase text-gray-500 group-hover:text-white transition-colors duration-300">

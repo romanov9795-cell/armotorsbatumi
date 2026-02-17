@@ -16,6 +16,7 @@ export default function Hero() {
                     src="/images/hero.jpg"
                     alt="BMW Service"
                     fill
+                    sizes="100vw"
                     className="object-cover opacity-60"
                     priority
                 />
@@ -68,7 +69,7 @@ export default function Hero() {
             </div>
 
             {/* Floating Elements (Decorative) */}
-            <div className="absolute right-0 bottom-0 w-1/3 h-1/2 bg-gradient-to-t from-[#E62E2D]/10 to-transparent blur-[100px] pointer-events-none" />
+            <div className="hidden md:block absolute right-0 bottom-0 w-1/3 h-1/2 bg-gradient-to-t from-[#E62E2D]/10 to-transparent blur-[100px] pointer-events-none" />
 
             {/* Scroll Indicator */}
             <motion.div

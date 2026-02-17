@@ -65,7 +65,7 @@ export default function OriginalOils() {
                                 transition={{ delay: i * 0.15 }}
                                 className={`group relative aspect-[3/4] overflow-hidden border border-white/10 bg-[#0a0a0a] clip-tech-lg ${i === 2 ? "sm:col-span-2 sm:aspect-[2/1]" : ""}`}
                             >
-                                <Image src={oil.image} alt={oil.name} fill className="object-cover transition-transform duration-700 group-hover:scale-110 opacity-60 group-hover:opacity-40" />
+                                <Image src={oil.image} alt={oil.name} fill sizes="(max-width: 768px) 100vw, 50vw" className="object-cover transition-transform duration-700 group-hover:scale-110 opacity-60 group-hover:opacity-40" />
                                 <div className="absolute inset-0 bg-gradient-to-t from-black via-black/20 to-transparent" />
 
                                 <div className="absolute top-4 right-4 bg-white/10 backdrop-blur-md p-2 clip-tech-sm">

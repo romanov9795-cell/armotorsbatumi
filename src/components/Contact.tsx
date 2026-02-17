@@ -39,7 +39,7 @@ export default function Contact() {
     ];
 
     return (
-        <section id="contact" className="relative py-24 bg-black overflow-hidden">
+        <section id="contact" className="relative section-padding bg-black overflow-hidden">
             <div className="absolute inset-0 bg-[url('/grid-pattern.svg')] opacity-5 pointer-events-none" />
 
             <div className="container mx-auto px-6 relative z-10 grid grid-cols-1 lg:grid-cols-2 gap-12">
