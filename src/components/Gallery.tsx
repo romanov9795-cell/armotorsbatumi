@@ -11,11 +11,11 @@ export default function Gallery() {
     const [selectedId, setSelectedId] = useState<string | null>(null);
 
     const images = [
-        { id: "1", src: "/images/gallery-work.jpg", titleKey: "gallery.1.title", tagKey: "gallery.1.tag" }, // Hands/Tools
-        { id: "2", src: "/images/model-x5-real.jpg", titleKey: "gallery.5.title", tagKey: "gallery.5.tag" }, // Stage 2 Tuning (Using confirmed X5)
-        { id: "3", src: "/images/service-lift.jpg", titleKey: "gallery.3.title", tagKey: "gallery.3.tag" }, // M Brake System (Lift view)
-        { id: "4", src: "/images/service-engine.jpg", titleKey: "gallery.4.title", tagKey: "gallery.4.tag" }, // Full Service (Engine)
-        { id: "5", src: "/images/gallery-diag.jpg", titleKey: "gallery.2.title", tagKey: "gallery.2.tag" }, // Engine Diag
+        { id: "1", src: "/images/service-detail.jpg", titleKey: "gallery.1.title", tagKey: "gallery.1.tag" }, // M4 Progress -> Detail shot
+        { id: "2", src: "/images/model-x5-real.jpg", titleKey: "gallery.5.title", tagKey: "gallery.5.tag" }, // Stage 2 Tuning (X5)
+        { id: "3", src: "/images/service-lift.jpg", titleKey: "gallery.3.title", tagKey: "gallery.3.tag" }, // M Brake System (Lift)
+        { id: "4", src: "/images/gallery-work.jpg", titleKey: "gallery.4.title", tagKey: "gallery.4.tag" }, // Full Service (Hands work)
+        { id: "5", src: "/images/service-engine.jpg", titleKey: "gallery.2.title", tagKey: "gallery.2.tag" }, // Engine Diag (Engine closeup)
         { id: "6", src: "/images/service-interior.jpg", titleKey: "gallery.6.title", tagKey: "gallery.6.tag" }, // Detailing
     ];
 
